@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<!-- Site title
+   ================================================== -->
+	<title>Acceso</title>
+
+	<!-- Bootstrap CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Animate CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/animate.min.css">
+
+	<!-- Font Icons CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<!-- Main CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Google web font 
+   ================================================== -->	
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+	
+</head>
+<body>
+
+<!-- Single Post section
+================================================== -->
+<section id="single-post">
+   <div class="container">
+      <div class="row">
+    
+         	
+<script>
+function usrpas(){
+if (document.form1.txt.value=="admin1" && document.form1.num.value=="cuni01"){window.location="desarrollo.html";return}
+if (document.form1.txt.value=="admin2" && document.form1.num.value=="cuni02"){window.location="capa.html";return}
+else {alert("Error en Usuario o Contraseña. Intenta de nuevo.")}
+}
+document.oncontextmenu=new Function("return false");
+</script>
+
+               <div class="blog-comment-form">
+                  <h3>A C C E S O :</h3>
+                   
+                   <form name="form1">
+
+<input type="text" name="txt" class="form-control" placeholder="Usuario" required><br>
+
+Clave de Acceso:<input type="text" name="num" class="form-control" placeholder="Clave" required><br>
+
+<input name="submit" type="button" value="E N T R A R" class="form-control" id="submit" onclick="usrpas()">
+
+</form>   
+
+          </div>   
+           </div>  
+        </div>  
+</section>
+
+<!-- Javascript 
+================================================== -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
